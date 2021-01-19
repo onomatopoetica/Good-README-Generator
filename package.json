@@ -1,0 +1,23 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "A command-line application that dynamically generates a professional README.md file from a user's input using Inquirer npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onomatopoetica/Good-README-Generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/onomatopoetica/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/onomatopoetica/Good-README-Generator#readme"
+}
