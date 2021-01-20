@@ -29,27 +29,27 @@ Lorem ipsum
     
 ## Getting Started
     
-#### Languages and libraries used in this project:
-JavaScript, Inquirer npm, Node.js, markdown
+#### Languages and libraries used in this project (separate with commas):
+JavaScript, Node.js, Inquirer npm, markdown
     
-#### Installation: <br>
+#### Installation: 
 ```  
 git clone
 ```
 
-#### Usage: <br>
+#### Usage:
 ```  
-Project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input. 
+Project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input.
 ```
 
-#### Tests: <br>
+#### Tests:
 ```  
-The application will be invoked by using the following command: node index.js
+node index.js
 ```
     
 ## Project Team
 [onomatopoetica](https://github.com/onomatopoetica) <br>
-[applePie](applePie.github)
+[applepie](https://github.com/applepie)
 
 ## Questions
 <details>
@@ -59,3 +59,5 @@ The application will be invoked by using the following command: node index.js
     
 ## License
 #### Distributed under the MIT License. See [Choose A License](https://choosealicense.com/) for more information.
+
+##### This README was generated with :hearts: by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)

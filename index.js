@@ -1,11 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-// const generateMarkdown = require('./utils/generateMarkdown');
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user for the README
-
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -50,23 +48,32 @@ const promptUser = () => {
         },
         {
             type: 'input',
+            name: 'contributionGuidelines',
+            message: 'Provide contribution guidelines:',
+        },
+        {
+            type: 'input',
             name: 'languages',
             message: 'Enter the languages and libraries used in this project (separated by commas):',
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'license',
-            message: 'Enter the license for your project (E.g., MIT):',
+            message: 'Enter the license for your project (e.g., MIT):',
+            choices: [
+                "MIT",
+                "GNU",
+                "ISC",
+                "Other",
+            ]
+            // .then(answers => {
+            //     console.log('answer:', answers.license);
+            // })
         },
         {
             type: 'input',
             name: 'contributor',
-            message: 'Provide the GitHub user name of any project contributors:',
-        },
-        {
-            type: 'input',
-            name: 'contributorURL',
-            message: 'Provide the GitHub profile URL for project contributors:',
+            message: 'Provide the GitHub user name of any project contributors (separate name by commas):',
         },
         {
             type: 'input',
@@ -75,7 +82,7 @@ const promptUser = () => {
         },
     ]);
 };
-
+//Template in which user answers to render for myREADME.md file
 function generateMarkdown(answers) {
     return `![GitHub last commit](https://img.shields.io/github/last-commit/${answers.github}/${answers.projectName})  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/${answers.github}/${answers.projectName})  ![GitHub watchers](https://img.shields.io/github/watchers/${answers.github}/${answers.projectName}?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/${answers.github}/${answers.projectName})  ![GitHub license](https://img.shields.io/badge/license-${answers.license}-blueviolet) <br> 
 
@@ -89,6 +96,7 @@ function generateMarkdown(answers) {
 1. [Installation](#Installation)
 1. [Usage](#Usage)
 1. [Tests](#Tests)
+1. [Contribution Guidelines](#Contribution-Guidelines)
 1. [Project Team](#Project-Team)
 1. [Questions](#Questions)
 1. [License](#License)
@@ -108,27 +116,32 @@ ${answers.projectSummary}
     
 ## Getting Started
     
-#### Languages and libraries used in this project:
+#### Languages and libraries used in this project (separate with commas):
 ${answers.languages}
     
-#### Installation: <br>
+#### Installation: 
 \`\`\`  
 ${answers.installationInstructions}
 \`\`\`
 
-#### Usage: <br>
+#### Usage:
 \`\`\`  
 ${answers.usageInstructions}
 \`\`\`
 
-#### Tests: <br>
+#### Tests:
 \`\`\`  
 ${answers.testInstructions}
+\`\`\`
+
+#### Contribution:
+\`\`\`  
+${answers.contributionGuidelines}
 \`\`\`
     
 ## Project Team
 [${answers.github}](${answers.githubProfileURL}) <br>
-[${answers.contributor}](${answers.contributorURL})
+[${answers.contributor}](https://github.com/${answers.contributor})
 
 ## Questions
 <details>
@@ -137,8 +150,19 @@ ${answers.testInstructions}
 </details>
     
 ## License
-#### Distributed under the ${answers.license} License. See [Choose A License](https://choosealicense.com/) for more information.`;
+#### Distributed under the ${answers.license} License. See [Choose A License](https://choosealicense.com/) for more information.
+
+##### This README was generated with :hearts: by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)`;
 }
+
+// For loop to take in more than one project contributor...
+// const contributors = answers.contributor
+// const contributorsArray = contributors.split(", ");
+// console.log(contributorsArray);
+// var resultContributors;
+// for (i = 0; i < contributorsArray.length; i++) {
+//     resultContributors = contributorsArray[i];
+// }
 
 // Using async/await to for final writeFile
 const init = async () => {
@@ -150,7 +174,7 @@ const init = async () => {
         // function to write README file
         await writeFileAsync('myREADME.md', finalFile);
 
-        console.log('Successfully wrote to myREADME.md');
+        console.log('Yay! Your README successfully wrote to myREADME.md');
     } catch (err) {
         console.log('Ooops, an error has occurred');
     }
