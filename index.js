@@ -15,6 +15,11 @@ const promptUser = () => {
         },
         {
             type: 'input',
+            name: 'githubProfileURL',
+            message: 'Provide your GitHub profile URL:',
+        },
+        {
+            type: 'input',
             name: 'projectName',
             message: 'Enter your GitHub repository name (for which you are creating a README):',
         },
@@ -35,6 +40,11 @@ const promptUser = () => {
         },
         {
             type: 'input',
+            name: 'testInstructions',
+            message: 'Provide steps to run tests:',
+        },
+        {
+            type: 'input',
             name: 'languages',
             message: 'Enter the languages and libraries used in this project (separated by commas):',
         },
@@ -42,6 +52,16 @@ const promptUser = () => {
             type: 'input',
             name: 'license',
             message: 'Enter the license for your project (E.g., MIT):',
+        },
+        {
+            type: 'input',
+            name: 'contributor',
+            message: 'Provide the GitHub user name of any project contributors:',
+        },
+        {
+            type: 'input',
+            name: 'contributorURL',
+            message: 'Provide the GitHub profile URL for project contributors:',
         },
         {
             type: 'input',
@@ -56,12 +76,14 @@ function generateMarkdown(answers) {
 
 # ${answers.projectName} <br>
     
-## Table of Contents
+## Table of Contents 
 1. [About the Project](#About-The-Project)
 1. [Project Links](#Project-Links)
 1. [Demo](#Demo)
 1. [Getting Started](#Getting-Started)
-1. [Project Creator](#Project-Creator)
+1. [Tests](#Tests)
+1. [Project Team](#Project-Team)
+1. [Questions](#Questions)
 1. [License](#License)
     
 ## About The Project <br>
@@ -75,7 +97,7 @@ ${answers.projectSummary}
     
 ##### The following is a screenshot of the application and overview of its functionality: <br>
     
-![Screenshot](${answers.demoURL}) 
+![Project Preview](${answers.demoURL}) 
     
 ## Getting Started
     
@@ -86,15 +108,24 @@ ${answers.languages}
 \`\`\`  
 ${answers.installationInstructions}
 \`\`\`
+
+#### Tests:
+\`\`\`  
+${answers.testInstructions}
+\`\`\`
     
-## Project Creator
+## Project Team
+[${answers.github}](${answers.githubProfileURL}) <br>
+[${answers.contributor}](${answers.contributorURL})
+
+## Questions
 <details>
     <summary>Contact</summary>
     ${answers.contactInfo}
 </details>
     
 ## License
-##### Distributed under the ${answers.license} License. See [Choose A License](https://choosealicense.com/) for more information.`;
+#### Distributed under the ${answers.license} License. See [Choose A License](https://choosealicense.com/) for more information.`;
 }
 
 // Using async/await for final writeFile
