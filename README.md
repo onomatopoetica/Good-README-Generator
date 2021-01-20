@@ -14,7 +14,7 @@ A command-line application that dynamically generates a professional README.md f
 1. [Project Links](#Project-Links)
 1. [Demo](#Demo)
 1. [Getting Started](#Getting-Started)
-1. [Questions + Project Status](#Questions-Project-Status)
+1. [Questions + Project Status](#Questions-+-Project-Status)
 1. [License](#License)
     
 ## About The Project <br>
