@@ -93,7 +93,7 @@ The application will be invoked by using the following in the command line: node
 When contributing to this repository, please first discuss the change you wish to make via issue or email with the project team. See contact details below.
 ```
 ## Questions 
-   #### Connect with the project team: [Onomatopoetica](https://github.com/onomatopoetica)
+#### Connect with the project team: [Onomatopoetica](https://github.com/onomatopoetica)
    
 <details>
     <summary>Contact</summary>
