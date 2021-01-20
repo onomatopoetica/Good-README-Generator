@@ -59,7 +59,7 @@ const promptUser = () => {
         {
             type: 'list',
             name: 'license',
-            message: 'Enter the license for your project (e.g., MIT):',
+            message: 'Enter the license for your project:',
             choices: ["MIT", "GNU", "ISC", "Other"]
         },
         {
@@ -123,7 +123,7 @@ ${answers.testInstructions}
 
 #### Contribution Guidelines:
 \`\`\`  
-${answers.contributionGuidelines }
+${answers.contributionGuidelines}
 \`\`\`
     
 ## Project Team
