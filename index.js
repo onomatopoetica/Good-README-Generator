@@ -40,6 +40,11 @@ const promptUser = () => {
         },
         {
             type: 'input',
+            name: 'usageInstructions',
+            message: 'Describe how to use the project application:',
+        },
+        {
+            type: 'input',
             name: 'testInstructions',
             message: 'Provide steps to run tests:',
         },
@@ -81,6 +86,8 @@ function generateMarkdown(answers) {
 1. [Project Links](#Project-Links)
 1. [Demo](#Demo)
 1. [Getting Started](#Getting-Started)
+1. [Installation](#Installation)
+1. [Usage](#Usage)
 1. [Tests](#Tests)
 1. [Project Team](#Project-Team)
 1. [Questions](#Questions)
@@ -109,7 +116,12 @@ ${answers.languages}
 ${answers.installationInstructions}
 \`\`\`
 
-#### Tests:
+#### Usage: <br>
+\`\`\`  
+${answers.usageInstructions}
+\`\`\`
+
+#### Tests: <br>
 \`\`\`  
 ${answers.testInstructions}
 \`\`\`
@@ -128,40 +140,30 @@ ${answers.testInstructions}
 #### Distributed under the ${answers.license} License. See [Choose A License](https://choosealicense.com/) for more information.`;
 }
 
-// Using async/await for final writeFile
+// Using async/await to for final writeFile
 const init = async () => {
     console.log('Hi! Create your README!');
     try {
         const answers = await promptUser();
 
         const finalFile = generateMarkdown(answers);
-
+        // function to write README file
         await writeFileAsync('myREADME.md', finalFile);
 
         console.log('Successfully wrote to myREADME.md');
     } catch (err) {
-        console.log(err);
+        console.log('Ooops, an error has occurred');
     }
 };
-
+// function call to initialize program
 init();
 
 
-// function to write README file
 
 
-// function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, (err, data) => {
-//         err ? console.log('Ooops, an error has occurred') : console.log('Yay! Your README has been generated!')
-//     })
-// }
 
-// function to initialize program
-// function init() {
 
-// }
 
-// function call to initialize program
-// init();
+
 
 
