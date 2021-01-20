@@ -14,7 +14,8 @@ A command-line application that dynamically generates a professional README.md f
 1. [Project Links](#Project-Links)
 1. [Demo](#Demo)
 1. [Getting Started](#Getting-Started)
-1. [Questions + Project Status](#Questions-+-Project-Status)
+1. [Questions](#Questions)
+1. [Project Status](#Project-Status)
 1. [License](#License)
     
 ## About The Project <br>
@@ -62,8 +63,10 @@ The application will be invoked by using the following command: node index.js
 
 See demo video above for more information on how it works.
 ```    
-## Questions + Project Status
+## Questions 
    ### Project Facilitator: [Onomatopoetica](https://github.com/onomatopoetica)
+
+## Project Status
 <details>
     <summary>Project Status</summary>
     Active
