@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet) <br> 
+![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-GNU-blueviolet) <br> 
 
 # Good-README-Generator <br>
     
@@ -16,7 +16,7 @@
 1. [License](#License)
     
 ## About The Project <br>
-As a developer I want a README generator allowing me to quickly create a professional README for a new project
+The project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input.
     
 ## Project Links
 [Repo Link](https://github.com/onomatopoetica/Good-README-Generator) <br>
@@ -35,27 +35,26 @@ JavaScript, Node.js, Inquirer npm, markdown
     
 #### Installation: 
 ```  
-git clone
+git clone - https://github.com/onomatopoetica/Good-README-Generator.git
 ```
 
 #### Usage:
 ```  
-a command-line application that accepts user input
+The project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input. 
 ```
 
 #### Tests:
 ```  
-node index.js
+The application will be invoked by using the following in the command line: node index.js
 ```
 
 #### Contribution:
 ```  
-When contributing to this repository, please first discuss the change you wish to make via issue or email before making a change.
+When contributing to this repository, please first discuss the change you wish to make via issue or email with the project team. See contact details below.
 ```
     
 ## Project Team
 [onomatopoetica](https://github.com/onomatopoetica) <br>
-[ApplePie](https://github.com/ApplePie)
 
 ## Questions
 <details>
@@ -64,6 +63,6 @@ When contributing to this repository, please first discuss the change you wish t
 </details>
     
 ## License
-#### Distributed under the MIT License. See [Choose A License](https://choosealicense.com/) for more information.
+#### Distributed under the GNU License. See [Choose A License](https://choosealicense.com/) for more information.
 
-##### This README was generated with :hearts:  by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)
+##### This README was generated with :hearts: &nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).

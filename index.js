@@ -29,7 +29,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'demoURL',
-            message: 'Enter the assets URL of a screenshot of your project to demonstrate how it works:',
+            message: 'Enter the assets URL for the screenshot of your project demonstrating how it works:',
         },
         {
             type: 'input',
@@ -61,14 +61,6 @@ const promptUser = () => {
             name: 'license',
             message: 'Enter the license for your project (e.g., MIT):',
             choices: ["MIT", "GNU", "ISC", "Other"]
-            // .then(answers => {
-            //     console.log('answer:', answers.license);
-            // })
-        },
-        {
-            type: 'input',
-            name: 'contributor',
-            message: 'Provide the GitHub user name of any project contributors (separate name by commas):',
         },
         {
             type: 'input',
@@ -129,14 +121,13 @@ ${answers.usageInstructions}
 ${answers.testInstructions}
 \`\`\`
 
-#### Contribution:
+#### Contribution Guidelines:
 \`\`\`  
 ${answers.contributionGuidelines }
 \`\`\`
     
 ## Project Team
 [${answers.github}](${answers.githubProfileURL}) <br>
-[${answers.contributor}](https://github.com/${answers.contributor})
 
 ## Questions
 <details>
@@ -147,17 +138,8 @@ ${answers.contributionGuidelines }
 ## License
 #### Distributed under the ${answers.license} License. See [Choose A License](https://choosealicense.com/) for more information.
 
-##### This README was generated with :hearts:  by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)`;
+##### This README was generated with :hearts: &nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).`;
 }
-
-// For loop to take in more than one project contributor...
-// const contributors = answers.contributor
-// const contributorsArray = contributors.split(", ");
-// console.log(contributorsArray);
-// var resultContributors;
-// for (i = 0; i < contributorsArray.length; i++) {
-//     resultContributors = contributorsArray[i];
-// }
 
 // Using async/await to for final writeFile
 const init = async () => {
@@ -166,6 +148,9 @@ const init = async () => {
         const answers = await promptUser();
 
         const finalFile = generateMarkdown(answers);
+        if (answers.license === "Other") {
+            console.log("You entered 'Other' for your project license, you may add a license once your file is generated.");
+        }
         // function to write README file
         await writeFileAsync('myREADME.md', finalFile);
 
