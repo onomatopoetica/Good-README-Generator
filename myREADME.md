@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-GNU-blueviolet) <br> 
+![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet) <br> 
 
 # Good-README-Generator <br>
     
@@ -48,7 +48,7 @@ The project is a command-line application using Inquirer npm which dynamically g
 The application will be invoked by using the following in the command line: node index.js
 ```
 
-#### Contribution:
+#### Contribution Guidelines:
 ```  
 When contributing to this repository, please first discuss the change you wish to make via issue or email with the project team. See contact details below.
 ```
@@ -63,6 +63,6 @@ When contributing to this repository, please first discuss the change you wish t
 </details>
     
 ## License
-#### Distributed under the GNU License. See [Choose A License](https://choosealicense.com/) for more information.
+#### Distributed under the MIT License. See [Choose A License](https://choosealicense.com/) for more information.
 
 ##### This README was generated with :hearts: &nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).
