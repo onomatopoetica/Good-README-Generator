@@ -14,19 +14,41 @@ A command-line application that dynamically generates a professional README.md f
 1. [Project Links](#Project-Links)
 1. [Demo](#Demo)
 1. [Getting Started](#Getting-Started)
+1. [Installation](#Installation)
+1. [Usage](#Usage)
+1. [Tests](#Tests)
 1. [Questions](#Questions)
 1. [Project Status](#Project-Status)
 1. [License](#License)
     
 ## About The Project <br>
-Lorem ipsum
-    
+
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+
+You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+
+This project was to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
+
+The application will be invoked by using the following in the command line:
+
+```
+node index.js
+```
+Because this application cannot be deployed on GitHub, a walkthrough video demonstrates its functionality below. 
+
 ## Demo
     
 ##### The following is a screenshot of the application and overview of its functionality: <br>
     
 ![Screenshot](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/sunflower.png) 
     
+## User Story
+```
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+```
+
 ## Acceptance Criteria
 
 ```
@@ -54,14 +76,18 @@ THEN I am taken to the corresponding section of the README
 * Node.js
 * Inquirer npm
     
-#### Installation: <br>
+#### Installation: 
 ```  
-git clone https://github.com/onomatopoetica/Good-README-Generator.git
-
-Project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input. 
-The application will be invoked by using the following command: node index.js
-
+git clone - https://github.com/onomatopoetica/Good-README-Generator.git
+```
+#### Usage 
+```
+The project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input. 
 See demo video above for more information on how it works.
+```
+#### Tests
+```
+The application will be invoked by using the following in the command line: node index.js
 ```    
 ## Questions 
    #### Connect with the project team: [Onomatopoetica](https://github.com/onomatopoetica)
