@@ -17,6 +17,7 @@ A command-line application that dynamically generates a professional README.md f
 1. [Installation](#Installation)
 1. [Usage](#Usage)
 1. [Tests](#Tests)
+1. [Contribution Guidelines](#Contribution-Guidelines)
 1. [Questions](#Questions)
 1. [Project Status](#Project-Status)
 1. [License](#License)
@@ -87,6 +88,10 @@ See demo video above for more information on how it works.
 ```
 The application will be invoked by using the following in the command line: node index.js
 ```    
+#### Contribution Guidelines
+```
+When contributing to this repository, please first discuss the change you wish to make via issue or email with the project team. See contact details below.
+```
 ## Questions 
    #### Connect with the project team: [Onomatopoetica](https://github.com/onomatopoetica)
    
