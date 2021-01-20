@@ -99,7 +99,7 @@ The application will be invoked by using the following in the command line: node
 
 ## Project Status
 <details>
-    <summary>Project Status</summary>
+    <summary>Current Project Activity</summary>
     Active
 </details>
     
