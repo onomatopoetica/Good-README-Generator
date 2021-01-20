@@ -39,7 +39,7 @@ Because this application cannot be deployed on GitHub, a walkthrough video demon
     
 ##### The following is a screenshot of the application and overview of its functionality: <br>
     
-![Screenshot](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/sunflower.png) 
+![Screenshot](https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/GttngStrtdREADME.png) 
     
 ## User Story
 ```
