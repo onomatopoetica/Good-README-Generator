@@ -10,7 +10,7 @@ A command-line application that dynamically generates a professional README.md f
 [GitHub Project Link](https://onomatopoetica.github.io/Good-README-Generator/)    
     
 ## Table of Contents
-1. [About the Project](#About-The-Project)
+1. [About The Project](#About-The-Project)
 1. [Project Links](#Project-Links)
 1. [Demo](#Demo)
 1. [Getting Started](#Getting-Started)
@@ -64,16 +64,17 @@ The application will be invoked by using the following command: node index.js
 See demo video above for more information on how it works.
 ```    
 ## Questions 
-   #### Project Facilitator: [Onomatopoetica](https://github.com/onomatopoetica)
+   #### Connect with the project team: [Onomatopoetica](https://github.com/onomatopoetica)
+   
+<details>
+    <summary>Contact</summary>
+    jendotb@gmail.com
+</details>
 
 ## Project Status
 <details>
     <summary>Project Status</summary>
     Active
-</details>
-<details>
-    <summary>Contact</summary>
-    jendotb@gmail.com
 </details>
     
 ## License
