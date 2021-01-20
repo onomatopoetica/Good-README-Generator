@@ -7,6 +7,8 @@
 1. [Project Links](#Project-Links)
 1. [Demo](#Demo)
 1. [Getting Started](#Getting-Started)
+1. [Installation](#Installation)
+1. [Usage](#Usage)
 1. [Tests](#Tests)
 1. [Project Team](#Project-Team)
 1. [Questions](#Questions)
@@ -28,21 +30,26 @@ Lorem ipsum
 ## Getting Started
     
 #### Languages and libraries used in this project:
-JavaScript, node.js, markdown, Inquirer npm
+JavaScript, Inquirer npm, Node.js, markdown
     
 #### Installation: <br>
 ```  
 git clone
 ```
 
-#### Tests:
+#### Usage: <br>
 ```  
-node index.js
+Project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input. 
+```
+
+#### Tests: <br>
+```  
+The application will be invoked by using the following command: node index.js
 ```
     
 ## Project Team
-[onomatopoetica](https://github.com/onomatopoetica)
-[ApplePie](applepie.github)
+[onomatopoetica](https://github.com/onomatopoetica) <br>
+[applePie](applePie.github)
 
 ## Questions
 <details>
