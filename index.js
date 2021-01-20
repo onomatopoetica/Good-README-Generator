@@ -29,12 +29,12 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'demoURL',
-            message: 'Enter the URL of a screenshot or video clip of your project to demonstrate how it works \n (format example - https://github.com/githubUserName/project-name/tree/main/assets/screenshot.png):',
+            message: 'Enter the assets URL of a screenshot of your project to demonstrate how it works:',
         },
         {
             type: 'input',
             name: 'installationInstructions',
-            message: 'Describe the installation process, if any:',
+            message: 'Describe the installation process:',
         },
         {
             type: 'input',
@@ -44,7 +44,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'testInstructions',
-            message: 'Provide steps to run tests:',
+            message: 'Provide testing instructions:',
         },
         {
             type: 'input',
@@ -60,12 +60,7 @@ const promptUser = () => {
             type: 'list',
             name: 'license',
             message: 'Enter the license for your project (e.g., MIT):',
-            choices: [
-                "MIT",
-                "GNU",
-                "ISC",
-                "Other",
-            ]
+            choices: ["MIT", "GNU", "ISC", "Other"]
             // .then(answers => {
             //     console.log('answer:', answers.license);
             // })
@@ -136,7 +131,7 @@ ${answers.testInstructions}
 
 #### Contribution:
 \`\`\`  
-${answers.contributionGuidelines}
+${answers.contributionGuidelines }
 \`\`\`
     
 ## Project Team
@@ -152,7 +147,7 @@ ${answers.contributionGuidelines}
 ## License
 #### Distributed under the ${answers.license} License. See [Choose A License](https://choosealicense.com/) for more information.
 
-##### This README was generated with :hearts: by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)`;
+##### This README was generated with :hearts:  by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)`;
 }
 
 // For loop to take in more than one project contributor...

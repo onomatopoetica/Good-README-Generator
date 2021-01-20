@@ -10,12 +10,13 @@
 1. [Installation](#Installation)
 1. [Usage](#Usage)
 1. [Tests](#Tests)
+1. [Contribution Guidelines](#Contribution-Guidelines)
 1. [Project Team](#Project-Team)
 1. [Questions](#Questions)
 1. [License](#License)
     
 ## About The Project <br>
-Lorem ipsum
+As a developer I want a README generator allowing me to quickly create a professional README for a new project
     
 ## Project Links
 [Repo Link](https://github.com/onomatopoetica/Good-README-Generator) <br>
@@ -39,17 +40,22 @@ git clone
 
 #### Usage:
 ```  
-Project is a command-line application using Inquirer npm which dynamically generates a README.md file from user's input.
+a command-line application that accepts user input
 ```
 
 #### Tests:
 ```  
 node index.js
 ```
+
+#### Contribution:
+```  
+When contributing to this repository, please first discuss the change you wish to make via issue or email before making a change.
+```
     
 ## Project Team
 [onomatopoetica](https://github.com/onomatopoetica) <br>
-[applepie](https://github.com/applepie)
+[ApplePie](https://github.com/ApplePie)
 
 ## Questions
 <details>
@@ -60,4 +66,4 @@ node index.js
 ## License
 #### Distributed under the MIT License. See [Choose A License](https://choosealicense.com/) for more information.
 
-##### This README was generated with :hearts: by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)
+##### This README was generated with :hearts:  by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)
