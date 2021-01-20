@@ -64,7 +64,7 @@ The application will be invoked by using the following command: node index.js
 See demo video above for more information on how it works.
 ```    
 ## Questions 
-   ### Project Facilitator: [Onomatopoetica](https://github.com/onomatopoetica)
+   #### Project Facilitator: [Onomatopoetica](https://github.com/onomatopoetica)
 
 ## Project Status
 <details>
