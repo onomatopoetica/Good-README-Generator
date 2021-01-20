@@ -79,3 +79,5 @@ See demo video above for more information on how it works.
     
 ## License
 #### Distributed under the MIT License. See `LICENSE` for more information.
+
+##### This README was generated with :hearts: &nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator)
