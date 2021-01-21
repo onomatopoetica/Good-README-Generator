@@ -113,4 +113,4 @@ When contributing to this repository, please first discuss the change you wish t
 ## License
 #### Distributed under the MIT License. See `LICENSE` for more information.
 
-##### This README was generated with :hearts: &nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).
+##### This README was generated with :hearts:&nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).
