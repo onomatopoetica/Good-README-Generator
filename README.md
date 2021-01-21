@@ -37,13 +37,13 @@ Because this application cannot be deployed on GitHub, a walkthrough video demon
 
 ## Demo
 
-#### The following is a video of the application and performance and functionality:
+#### The following is a video of the application performance and its functionality:
 
 [See how it works!](https://drive.google.com/file/d/1U4zXaSV2mI8s10g4S24mR-Zy03rPBWXd/view?usp=sharing)  
 
-#### The following is a brief demonstration of the application and rendering of generated README: 
+#### The following is a brief demonstration of the application and rendering of generated README. See full video demonstration on "See how it works!" link above: 
     
-<img src="https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/README.GIF" alt="screenshot" title="READMEcode"> 
+<img src="https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/README.GIF" alt="screenshot" title="READMEcode" width="500" height="auto"> 
     
 ## User Story
 ```
