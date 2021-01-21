@@ -36,10 +36,14 @@ node index.js
 Because this application cannot be deployed on GitHub, a walkthrough video demonstrates its functionality below. 
 
 ## Demo
+
+#### The following is a video of the application and performance and functionality:
+
+![See how it works!](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/schedulerDemo.GIF)  
+
+#### The following is an excerpt of the application's code: 
     
-##### The following is a screenshot of the application and overview of its functionality: <br>
-    
-![Screenshot](https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/GttngStrtdREADME.png) 
+![Excerpt](https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/asyncAwaitCodeSM.png) 
     
 ## User Story
 ```
