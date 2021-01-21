@@ -39,7 +39,7 @@ Because this application cannot be deployed on GitHub, a walkthrough video demon
 
 #### The following is a video of the application and performance and functionality:
 
-![See how it works!](https://drive.google.com/file/d/1WQ9RcIuv5T-6mlUPCAPbqIaxHwcWkPEI/view?usp=sharing)  
+[See how it works!](https://drive.google.com/file/d/1WQ9RcIuv5T-6mlUPCAPbqIaxHwcWkPEI/view?usp=sharing)  
 
 #### The following is an excerpt of the application's code: 
     
