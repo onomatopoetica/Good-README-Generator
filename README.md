@@ -41,9 +41,9 @@ Because this application cannot be deployed on GitHub, a walkthrough video demon
 
 [See how it works!](https://drive.google.com/file/d/1U4zXaSV2mI8s10g4S24mR-Zy03rPBWXd/view?usp=sharing)  
 
-#### The following is an excerpt of the application's code: 
+#### The following is a brief demonstration of the application and rendering of generated README: 
     
-<img src="https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/scriptREADME.png" alt="README screenshot" title="READMEcode"> 
+<img src="https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/README.GIF" alt="screenshot" title="READMEcode"> 
     
 ## User Story
 ```
