@@ -73,7 +73,7 @@ const promptUser = () => {
 function generateMarkdown(answers) {
     return `![GitHub last commit](https://img.shields.io/github/last-commit/${answers.github}/${answers.projectName})  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/${answers.github}/${answers.projectName})  ![GitHub watchers](https://img.shields.io/github/watchers/${answers.github}/${answers.projectName}?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/${answers.github}/${answers.projectName})  ![GitHub license](https://img.shields.io/badge/license-${answers.license}-blueviolet) <br> 
 
-# ${answers.projectName} <br>
+# ${answers.projectName}
     
 ## Table of Contents 
 1. [About the Project](#About-The-Project)
@@ -88,7 +88,7 @@ function generateMarkdown(answers) {
 1. [Questions](#Questions)
 1. [License](#License)
     
-## About The Project <br>
+## About The Project
 ${answers.projectSummary}
     
 ## Project Links

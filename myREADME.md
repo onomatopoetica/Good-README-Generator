@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet) <br> 
+![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-GNU-blueviolet) <br> 
 
 # Good-README-Generator <br>
     
@@ -26,7 +26,7 @@ The project is a command-line application using Inquirer npm which dynamically g
     
 ##### The following is a screenshot of the application and overview of its functionality: <br>
     
-![Project Preview](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/sunflower.png) 
+![Project Preview](https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/sunflowerDEMO.png) 
     
 ## Getting Started
     
@@ -59,10 +59,10 @@ When contributing to this repository, please first discuss the change you wish t
 ## Questions
 <details>
     <summary>Contact</summary>
-    jen@jen.com
+    abc@abc.com
 </details>
     
 ## License
-#### Distributed under the MIT License. See [Choose A License](https://choosealicense.com/) for more information.
+#### Distributed under the GNU License. See [Choose A License](https://choosealicense.com/) for more information.
 
 ##### This README was generated with :hearts: &nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).
