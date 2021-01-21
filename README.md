@@ -39,7 +39,7 @@ Because this application cannot be deployed on GitHub, a walkthrough video demon
 
 #### The following is a video of the application and performance and functionality:
 
-![See how it works!](https://github.com/onomatopoetica/work-day-scheduler/blob/main/assets/schedulerDemo.GIF)  
+![See how it works!](https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/RDME.MOV)  
 
 #### The following is an excerpt of the application's code: 
     
