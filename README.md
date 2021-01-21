@@ -3,7 +3,7 @@ A command-line application that dynamically generates a professional README.md f
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet) <br> 
 
-# Good-README-Generator <br>
+# Good-README-Generator
     
 ## Project Links
 [Repo Link](https://github.com/onomatopoetica/Good-README-Generator) <br>
@@ -22,7 +22,7 @@ A command-line application that dynamically generates a professional README.md f
 1. [Project Status](#Project-Status)
 1. [License](#License)
     
-## About The Project <br>
+## About The Project
 
 When creating an open source project on GitHub, it’s important to have a high quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. Contributions are particularly important as they increase the likelihood that other developers will contribute to the success of the project. 
 
@@ -39,7 +39,7 @@ Because this application cannot be deployed on GitHub, a walkthrough video demon
 
 #### The following is a video of the application and performance and functionality:
 
-[See how it works!](https://drive.google.com/file/d/1WQ9RcIuv5T-6mlUPCAPbqIaxHwcWkPEI/view?usp=sharing)  
+[See how it works!](https://drive.google.com/file/d/1U4zXaSV2mI8s10g4S24mR-Zy03rPBWXd/view?usp=sharing)  
 
 #### The following is an excerpt of the application's code: 
     
