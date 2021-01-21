@@ -43,7 +43,7 @@ Because this application cannot be deployed on GitHub, a walkthrough video demon
 
 #### The following is an excerpt of the application's code: 
     
-<img src="https://github.com/onomatopoetica/Good-README-Generator/blob/main/assets/scriptREADME.png" alt="README screenshot" title="READMEcode"> 
+<img src="/assets/scriptREADME.png" alt="README screenshot" title="READMEcode"> 
     
 ## User Story
 ```
