@@ -7,7 +7,7 @@ A command-line application that dynamically generates a professional README.md f
     
 ## Project Links
 [Repo Link](https://github.com/onomatopoetica/Good-README-Generator) <br>
-[GitHub Project Link](https://onomatopoetica.github.io/Good-README-Generator/)    
+**NOTE:** Since this application runs in the command line, it cannot be deployed on GitHub. Please see the **Demo** section for an overview of its functionality and the **Getting Started** section for more information regarding installation, usage, contribution guidelines, tests and where to go for questions.
     
 ## Table of Contents
 1. [About The Project](#About-The-Project)
@@ -113,4 +113,4 @@ When contributing to this repository, please first discuss the change you wish t
 ## License
 #### Distributed under the MIT License. See `LICENSE` for more information.
 
-##### This README was generated with :hearts:&nbsp;by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).
+##### This README was generated with :hearts:&nbsp; by [Good README Generator](https://github.com/onomatopoetica/Good-README-Generator).
