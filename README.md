@@ -2,8 +2,6 @@
 A command line application that dynamically generates a professional README.md file from a user's input using Inquirer npm. 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/Good-README-Generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/Good-README-Generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/Good-README-Generator?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/Good-README-Generator)  ![GitHub license](https://img.shields.io/badge/license-MIT-blueviolet) <br> 
-
-# Good-README-Generator
     
 ## Project Links
 [Repo Link](https://github.com/onomatopoetica/Good-README-Generator) <br>
